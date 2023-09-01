@@ -50,7 +50,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/singleproduct/:id" element={<SingleProduct />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="*" element={<ErrorPage />} />
+          <Route path="/*" element={<ErrorPage />} />
         </Routes>
         <Footer />
       </Router>

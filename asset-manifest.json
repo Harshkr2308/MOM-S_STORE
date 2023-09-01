@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Mom-s_store/static/css/main.e6c13ad2.css",
+    "main.js": "/Mom-s_store/static/js/main.239b0727.js",
+    "static/js/787.34115356.chunk.js": "/Mom-s_store/static/js/787.34115356.chunk.js",
+    "index.html": "/Mom-s_store/index.html",
+    "main.e6c13ad2.css.map": "/Mom-s_store/static/css/main.e6c13ad2.css.map",
+    "main.239b0727.js.map": "/Mom-s_store/static/js/main.239b0727.js.map",
+    "787.34115356.chunk.js.map": "/Mom-s_store/static/js/787.34115356.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.239b0727.js"
+  ]
+}

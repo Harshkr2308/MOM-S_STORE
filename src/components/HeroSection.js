@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import styled from "styled-components";
 import { Button } from "../styles/Button";
 // import heroImage from "../../public/images/hero.jpg"
@@ -14,19 +14,17 @@ const HeroSection = ({ myData }) => {
             <p className="intro-data">Welcome to </p>
             <h1> {name} </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              atque temporibus veniam doloribus libero ad error omnis voluptates
-              animi! Suscipit sapiente.
+            click on the shop now button to move to the product section to see the product and its.You can buy different product with a affordable price
             </p>
             <NavLink>
-              <Button>show now</Button>
+            <Button><Link to="/products"> show now</Link></Button>
             </NavLink>
           </div>
           {/* our homepage image  */}
           <div className="hero-section-image">
             <figure>
               <img
-                src="https://res.cloudinary.com/dko27pkev/image/upload/v1691502594/eccomerce/hero_hbavvg.jpg"
+                src="https://images.unsplash.com/photo-1578916171728-46686eac8d58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
                 alt="hero-section-photo"
                 className="img-style"
               />
@@ -53,7 +51,7 @@ const Wrapper = styled.section`
 
     h1 {
       text-transform: capitalize;
-      font-weight: bold;
+      font-weight: 500;
     }
 
     .intro-data {
@@ -85,6 +83,7 @@ const Wrapper = styled.section`
   .img-style {
     width: 100%;
     height: auto;
+    
   }
 
   @media (max-width: ${({ theme }) => theme.media.mobile}) {
